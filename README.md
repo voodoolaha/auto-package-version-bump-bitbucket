@@ -1,16 +1,16 @@
-## auto-package-version-bump-bitbucket
+# auto-package-version-bump-bitbucket
 
 CLI to update package.json file on bitbucket repo using https://api.bitbucket.org/2.0/
 
 Test bitbucket repo https://bitbucket.org/testworkspaceforautopr/test/src/main/
 
-## Requrements
+# Requrements
 
-# node.js 18.x.x
+## node.js 18.x.x
 
-# Added app pasword to Bitbucket user account
+## Added app pasword to Bitbucket user account
 
-## Deployment
+# Deployment
 
 ```
 npm install
@@ -20,7 +20,7 @@ npm install
 $ echo "USER_NAME=<YOUR_USER_NAME> \nPASSWORD=<YOUR_APP_PASSWORD>" >.env
 ```
 
-## How to run
+# How to run
 
 `node src/index.js`
 
@@ -34,7 +34,7 @@ $ echo "USER_NAME=<YOUR_USER_NAME> \nPASSWORD=<YOUR_APP_PASSWORD>" >.env
   -pv --package-version <package-version>   <optional> target version of the package.
 ```
 
-## TODO:
+# TODO:
 
 - tests (spike how to test fs)
 - translation to typescript
@@ -44,7 +44,7 @@ $ echo "USER_NAME=<YOUR_USER_NAME> \nPASSWORD=<YOUR_APP_PASSWORD>" >.env
 - pulling updates if repo exists in local folder (current implementation) vs deleting and clonning again
 - console.log -> logger
 
-## Rsources:
+# Rsources:
 
 - General guide for bitbucket API https://rewind.com/blog/using-bitbucket-api/
 - Bitbucket API documentation https://developer.atlassian.com/cloud/bitbucket/rest/api-group-workspaces/#api-group-workspaces
