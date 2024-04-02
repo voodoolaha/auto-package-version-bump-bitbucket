@@ -5,7 +5,6 @@ import { getLocalDirectory, clone, pull, commit, push } from '../gitActions.js';
 import createPullRequest from '../pullRequest.js';
 
 export default async function updateCommand(program) {
-  //TODO: add options for workspace, repository, packageName, packageVersion
   program
     .command('updater')
     .description('Create PR on bitbucket with update package in package.json')
