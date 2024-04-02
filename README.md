@@ -14,9 +14,7 @@ CLI to update package.json file on bitbucket repo using https://api.bitbucket.or
 ##How to run
 
 ```
-$ cat .env
-USER_NAME=<YOUR_USER_NAME>
-PASSWORD=<YOUR_APP_PASSWORD>
+$ echo "USER_NAME=<YOUR_USER_NAME> \nPASSWORD=<YOUR_APP_PASSWORD>" >.env
 ```
 
 `node src/index.js`
