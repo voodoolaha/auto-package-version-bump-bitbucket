@@ -1,0 +1,26 @@
+{
+  "name": "test-bitbucket-package-update-script",
+  "version": "1.0.0",
+  "description": "test task for Redoc",
+  "main": "index.js",
+  "scripts": {
+    "run": "node src/index.js"
+  },
+  "keywords": [
+    "CI/CD",
+    "automatic",
+    "package.json",
+    "update"
+  ],
+  "author": "Sviatoslav Vodolaha",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "base-64": "^1.0.0",
+    "commander": "^12.0.0",
+    "dotenv": "^16.4.5",
+    "inquirer": "^9.2.17",
+    "node-fetch": "^3.3.2",
+    "simple-git": "^3.24.0"
+  }
+}
